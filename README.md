@@ -11,7 +11,7 @@ $ ./scripts/run-container.sh
 ### Run locally
 #### Source settings
 ```console
-$ . scripts/settings.sh
+$ source ./scripts/settings.sh
 ```
 #### Run using `flask` cli
 ```console
