@@ -8,7 +8,7 @@ $ ./scripts/build-image.sh
 ```console
 $ ./scripts/run-container.sh
 ```
-#### Run locally
+### Run locally
 #### Source settings
 ```console
 $ . scripts/settings.sh
