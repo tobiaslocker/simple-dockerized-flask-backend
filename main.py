@@ -5,10 +5,12 @@ import logging
 
 app = create_app()
 logger = app.logger
+API_VERSION = 'v1.0'
 
-@app.route('/')
-def hello():
-    logger.debug('hello()')
+
+@app.route('/api/{}/resource'.format(API_VERSION))
+def resource():
+    logger.debug('resource()')
     return make_response(jsonify({
         'Response from Flask': 'Hello, World!'
         }), 200)
